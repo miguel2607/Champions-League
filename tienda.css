@@ -1,0 +1,48 @@
+header{
+    color: rgb(250, 250, 250);
+}
+body{
+    background: url("./Imagenes/prizes-bg.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    color: rgb(9, 9, 9);
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 27, 96);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.img1{
+    width: 100px;    
+    height: auto;
+   
+}
+.img2{
+    width: 100px;
+    height: auto;
+}
+    
+.img4{
+    position: relative;
+    width: 400px;
+    height: auto;
+ 
+   }
+
+/* Esto es una nota */
+#imagen1{
+    width: 50%;
+    height: 50%;
+}
+
+.parrafo_{
+    color: rgb(255, 252, 252);
+    float:right ;
+    font-size: 20px;
+}

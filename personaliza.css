@@ -1,0 +1,81 @@
+body{
+    background: url("./Imagenes/prizes-bg.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    color: rgb(9, 9, 9);
+    }
+    header{
+  color: rgb(250, 250, 250);
+            background-color: black;
+            margin: 1rem;
+            padding: 1rem;
+            
+    }
+    .img1{
+        width: 100px;
+        height: auto;
+       
+           
+       }
+       h1{
+        color: white;
+       }
+       h2{
+        color: white;
+       }
+       .img2{
+        border-radius: 100%;
+        background: url("./Imagenes/prizes-bg.jpg");
+       
+    }
+    P{
+    color: white;
+    }
+    h3{
+        color: white;
+    }
+    button{
+        background-color: blue;
+        color: white;
+    }
+    .img3{
+        
+        top: 50px;
+        position: relative;
+       width: 300px;
+   left: 440px;
+   border-color: white;
+   
+    }
+    h6{
+        top: 50px;
+        position: relative;
+       width: 300px;
+   float: right;
+        color: white;
+    }
+    .img4{
+        width: 400px;
+    height: auto;
+    float: right;
+    top: 20px;
+    position: relative;
+    }
+    .video1{
+        position: relative;
+        width: 600px;
+        height: auto;
+        left: 500px;
+        border: 5px solid rgb(43, 69, 121);
+    border-radius: 5px;
+    }
+  h4{
+    color: white;
+  }
+  .uno{
+    background-color: rgb(0, 0, 246);
+    color: rgb(255, 255, 255);
+    
+  }

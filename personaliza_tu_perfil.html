@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu perfil</title>
+    <link rel="stylesheet" href="personaliza.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>UEFA.com</header>
+    <div>
+
+        <img src="Imagenes/champions.png" alt="Imagen champions" class="img1">
+        <img src="Imagenes/GettyImages-82586567.webp" alt="champions image" class="img4">
+    </div>
+    <button type="button" class="btn btn-primary"  onclick="redireccionar9()">Noticias</button>
+    <div>
+        <center>
+
+            <h1>Perzonaliza tu perfil (BETA)</h1>
+        </center>
+    </div>
+    <hr>
+    <h2>En esta parte podras personalizar tu perfil con unos avatares previamente seleccionados por nuestro equipo de trabajo</h2>
+<hr>
+<h3>BARCELONA</h3>
+    <div>
+        <img src="Imagenes/Captura_de_pantalla_2024-04-20_170011-removebg-preview.png" alt="Captura 1" class="img2">
+
+        <button type="button" class="btn btn-primary"  onclick="elegir1()">ELEGIR JUGADOR BARCELONA</button>
+        
+        <img src="Imagenes/images-removebg-preview.png" alt="copa"class="img3">
+        <h6>Campions league cup</h6>
+    </div>
+    
+    
+    
+<h3>MANCHESTER CITY</h3>
+<div>
+<img src="Imagenes/Captura_de_pantalla_2024-04-20_170910-removebg-preview.png" alt="captura2" class="img2">
+<button type="button" class="btn btn-primary"  onclick="elegir1()">ELEGIR JUGADOR MANCHESTER CITY</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<h2>
+    SABES LO SUFICIENTE DE LA CHAMPIONS, VAMOS A VER SI PUEDES CON ESTE QUIZ</h2>
+    <hr>
+    <p class="texto1">En este video video vamos a ver tu conocimiento hacerca de la uefa champions league en donde vamos a preguntarte diferentes preguntas de cual es maximo goleador, equipo mas ganador, etc</p>
+<div>
+    <video controls class="video1"> 
+        <source src="Imagenes/¿Cuánto Sabes de Fútbol_ ⚽️🤓 Quiz de Champions League 2023.mp4" type="video/mp4" class="video1">
+     <source src="Imagenes/¿Cuánto Sabes de Fútbol_ ⚽️🤓 Quiz de Champions League 2023.mp4" type="videos//ogg" class="video1">
+    </video>
+    <center>
+
+        <h4>Cuentanos cuantas respuestas tuvistes buenas</h4>
+       
+              <input type="Respuestta" id="respuesta" name="respuesta" ><br> 
+              <button class="uno" onclick="elegir2()">enviar</button>
+    </center>
+
+    
+</div>
+
+
+<script>
+     function elegir2(){
+    alert("Gracias por comentar cuantos aciertos tuviste!")
+}
+</script>
+    <script>
+        function redireccionar9()
+{
+    window.location.href ="index.html"
+}
+    </script>
+  <script>
+
+ function elegir1(){
+    alert("Tu jugador pronto sera elegido, en unos dias tendras tu foto de perfil nueva, ¡¡ GRACIAS POR TU ELECCION!!!")
+}
+
+
+  </script>
+</body>
+</html>

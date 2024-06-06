@@ -1,0 +1,120 @@
+header{
+    color: rgb(250, 250, 250);
+    background-color: black;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+body{
+    background: url("./Imagenes/prizes-bg.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    color: rgb(9, 9, 9);
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 30, 88);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+.img0{
+    position: relative;
+   left: 800px;
+   border: 5px white;
+}
+
+.img1{
+ width: 100px;
+ height: auto;
+float: left;
+ position: relative;
+ top: 40px;
+
+    
+}
+.img2{
+    
+    border: 5px slateblue 
+}
+.parrafo_3{
+    color: rgb(255, 252, 252);
+    float:right ;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+.parrafo_2{
+    color: white;
+   font-size: 20px;
+}
+
+
+.img3{
+width: 405px;    
+height: auto;
+border: 3px solid rgb(43, 69, 121);
+border-radius: 5px;
+
+}
+
+.img4{
+    width: 1000px;
+    height: 500px;
+}
+.parrafo_5{
+    color: white;
+    font-size: 20px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+.video1{
+    width: 600px;
+    height: auto;
+    border: 5px solid rgb(43, 69, 121);
+    border-radius: 5px;
+}
+.valverde{
+
+width: 400px;    
+height: auto;
+border: 3px solid rgb(43, 69, 121);
+border-radius: 5px;
+position: relative;
+left: 200px;
+top: 70px;
+}
+.video3{
+    width: 700px;
+    height: auto;
+    border: 5px solid rgb(43, 69, 121);
+    border-radius: 5px;
+    position: relative;
+    top: 1px;
+    float: left;
+    
+}
+.video4{
+    width: 900px;
+    height: auto;
+    border: 5px solid rgb(43, 69, 121);
+    border-radius: 5px;
+    position: relative;
+    top: 1px;
+}
